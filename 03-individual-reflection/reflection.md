@@ -4,10 +4,10 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên:
-- Mã học viên:
-- Nhóm:
-- Candidate problem nhóm chọn:
+- Họ và tên: Phạm Đình Duy
+- Mã học viên: 2A202602913
+- Nhóm: Vanno
+- Candidate problem nhóm chọn: Sinh viên và khách đến VinUni gặp khó khăn khi tìm phòng học/hội trường trong tòa nhà phức tạp và tìm quán ăn phù hợp quanh Ocean Park vì thông tin indoor map và tiện nghi xung quanh bị phân tán.
 
 ---
 
@@ -17,21 +17,21 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 | Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
 |---|---|---|
-| Scan cá nhân | | |
-| Pitch Problem Card | | |
-| Challenge bài của bạn khác | | |
-| Gom trùng / cluster | | |
-| Chọn candidate problem | | |
-| Validation / research | | |
-| Workflow nhóm | | |
-| Problem Statement | | |
-| Rule / Workflow / Agent | | |
-| Decision | | |
+| Scan cá nhân | Tôi scan 8 vấn đề từ trải nghiệm học AI, tìm tài liệu và làm nhóm. | Nhóm có thêm các hướng về learning overload, tài liệu phân tán và task nhóm chưa rõ. |
+| Pitch Problem Card | Tôi pitch mạnh nhất bài "sau một ngày học AI không biết phần nào đã hiểu thật". | Nhóm dùng bài này làm second choice và challenge lại metric "hiểu 40-60%" có hơi cảm tính. |
+| Challenge bài của bạn khác | Tôi hỏi các bài khác có actor rõ chưa, có đo được thời gian không, và có cần AI thật không. | Nhóm tránh chọn bài chỉ vì nghe giống Agent, nhất là các bài debug/code hoặc task management. |
+| Gom trùng / cluster | Tôi giúp gom các problem thành các cụm: learning support, task coordination, developer workflow, DA workflow và campus navigation. | Bảng shortlist rõ hơn, nhóm nhìn được bài nào trùng pattern và bài nào đứng riêng. |
+| Chọn candidate problem | Tôi đồng ý chọn campus navigation vì actor rộng, workflow dễ hiểu và metric thời gian rõ hơn bài learning support. | Nhóm chốt được final problem, nhưng vẫn ghi learning support của tôi là backup/second choice. |
+| Validation / research | Tôi nhắc nhóm cần validate bằng interview/survey và không dùng số AI đưa nếu chưa kiểm được nguồn. | Phần validation/research có hướng rõ hơn, dù nhóm vẫn cần điền thêm bằng chứng thật. |
+| Workflow nhóm | Tôi góp ý nên tách scope chính là tìm phòng trong VinUni trước, còn quán ăn quanh Ocean Park là mở rộng. | Workflow bớt rộng và có boundary dễ defend hơn. |
+| Problem Statement | Tôi giúp sửa câu problem theo mạch actor -> workflow -> bottleneck -> impact -> metric. | Problem Statement không chỉ nói "map khó dùng", mà nói rõ thông tin indoor map/tiện nghi bị phân tán. |
+| Rule / Workflow / Agent | Tôi góp ý không nên nhảy thẳng lên Agent, vì nhiều case có thể xử lý bằng rule/index/map data trước. | Nhóm có cơ sở so sánh No AI / Rule / Workflow / Agent rõ hơn. |
+| Decision | Tôi ủng hộ hướng Not Yet hoặc pilot nhỏ trước khi Go full solution. | Quyết định cuối có thể dựa trên dữ liệu indoor map, survey và rủi ro thông tin sai. |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
 ```text
-
+Dấu tay rõ nhất của tôi là phần synthesis/problem framing: tôi giúp nhóm gom nhiều idea rời rạc thành cluster và ép mỗi bài phải có actor, workflow, bottleneck, metric. Tôi cũng giữ lại bài learning support của mình như second choice, nhưng chấp nhận đổi sang campus navigation vì bài đó dễ đo và dễ demo hơn.
 ```
 
 ---
@@ -40,13 +40,13 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 
 | Phase | Tôi dùng AI để làm gì? | AI hữu ích ở đâu? | AI sai / hời hợt ở đâu? | Tôi sửa gì bằng nhận định của mình? |
 |---|---|---|---|---|
-| Scan | | | | |
-| Problem Card | | | | |
-| Workflow | | | | |
-| Research | | | | |
-| Problem Statement | | | | |
-| Rule / Workflow / Agent | | | | |
-| Decision | | | | |
+| Scan | Không dùng AI để tạo problem; tôi tự ghi từ trải nghiệm thật. | Không áp dụng. | Nếu dùng sớm có thể dễ ra idea chung chung kiểu "AI assistant cho sinh viên". | Tôi dùng 4 lăng kính trong worksheet để tự scan 8 problems có actor và dấu hiệu thật. |
+| Problem Card | Tôi dùng AI rất ít, chủ yếu để tự hỏi lại problem có đủ actor, workflow, metric chưa. | Hữu ích để nhắc tôi không viết quá chung. | AI dễ biến bài learning support thành solution ngay, ví dụ quiz bot hoặc study agent. | Tôi giữ trạng thái "chưa biết" cho AI fit và ghi rõ cần validate trước. |
+| Workflow | Tôi dùng AI để kiểm tra workflow có thiếu bước/handoff/bottleneck không. | Hữu ích khi tách current workflow và future workflow. | AI hay đề xuất future state quá sạch, không nói fallback khi dữ liệu sai. | Tôi thêm human boundary và fallback: người học/nhóm phải tự xác nhận. |
+| Research | Tôi dùng AI để gợi ý hướng research và câu hỏi cần kiểm nguồn. | Hữu ích để biết nên tìm tool/pattern hiện có trước khi tự build. | AI có thể đưa số liệu hoặc tool nghe hay nhưng chưa chắc đúng. | Tôi chỉ giữ ý nào có thể kiểm bằng link hoặc bằng validation thật. |
+| Problem Statement | Tôi dùng AI như người phản biện để xem field nào còn mơ hồ. | Hữu ích nhất ở phần metric và boundary. | AI hay viết câu rất bóng, nhưng thiếu cảm giác thật của nhóm. | Tôi sửa lại bằng ngôn ngữ đơn giản hơn và gắn với VinUni/Ocean Park. |
+| Rule / Workflow / Agent | Tôi dùng AI để so sánh các mức Rule, Workflow, Agent. | Hữu ích để thấy Rule không kém Agent nếu dữ liệu/bước làm rõ. | AI thường thích Agent vì nghe mạnh hơn, nhưng rủi ro cao hơn. | Tôi nghiêng về Workflow/pilot nhỏ, có người review trước khi dùng thật. |
+| Decision | Tôi dùng AI để tạo checklist rủi ro trước khi chốt. | Hữu ích để nhớ hỏi: data đủ chưa, AI sai ai kiểm, metric đo được chưa. | AI không biết dữ liệu indoor map của nhóm thật sự đủ hay chưa. | Tôi xem decision là Not Yet/pilot nhỏ nếu chưa có survey và dữ liệu map đáng tin. |
 
 > Nếu phase nào không dùng AI, ghi `Không dùng` và vì sao tự làm.
 
@@ -65,22 +65,21 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 **Reflection:**
 
 ```text
+Khi nghe top 3 problems của các bạn khác, tôi học được là một problem nghe "ngầu" chưa chắc là problem tốt để làm AI. Ví dụ các bài debug code, review PR hay SQL có vẻ rất hợp AI, nhưng nếu không có repo/log/schema thật thì nhóm sẽ khó chứng minh. Ban đầu tôi muốn pitch bài learning support của mình vì nó rất gần trải nghiệm học AI: học cả ngày, nhiều nguồn, rồi không biết phần nào đã hiểu thật. Nhưng sau khi bị challenge, tôi thấy metric "hiểu 40-60%" còn cảm tính, cần quiz hoặc checklist rõ hơn mới defend được. Vì vậy tôi đồng ý để nhóm chọn campus navigation của Chương, vì actor rộng hơn và workflow tìm phòng/tìm đường dễ giải thích hơn.
 
-
-
+Đóng góp chính của tôi không phải là đưa ra final idea, mà là giúp nhóm gom cluster và làm câu problem chặt hơn. Tôi cố kéo nhóm đi theo mạch problem -> workflow -> bottleneck -> metric -> boundary, vì nếu nhảy thẳng sang app/agent thì bài sẽ bị solution-first. AI có giúp tôi kiểm tra xem bảng có thiếu field nào không, nhất là phần AI sai ở đâu và ai review. Nhưng AI cũng hay viết quá mượt và hơi chung, nên tôi phải sửa lại bằng chi tiết thật như VinUni, Ocean Park, indoor map, thời gian 15-20 phút và scope phòng học trước. Điều khó nhất với tôi là metric và boundary: metric phải đo được, còn boundary phải nói rõ AI không tự bịa đường/quán và không thay người kiểm tra nguồn. Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở việc thu evidence sớm hơn, ví dụ hỏi nhanh 5-10 bạn hoặc ghi lại 2-3 lần tìm phòng thật trước khi viết final decision.
 ```
 
 ---
 
 ## 4. Tự kiểm cuối bài (check trước khi nộp repo)
 
-- [ ] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards
-- [ ] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
-- [ ] Nhóm có nhật ký hội tụ từ candidates về 1 bài
+- [x] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards
+- [x] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
+- [x] Nhóm có nhật ký hội tụ từ candidates về 1 bài
 - [ ] [15đ] Nhóm có workflow trước/sau
 - [ ] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ
 - [ ] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent
 - [ ] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ
-- [ ] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
-- [ ] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI
-
+- [x] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
+- [x] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI

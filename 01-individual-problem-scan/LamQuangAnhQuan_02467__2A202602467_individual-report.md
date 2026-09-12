@@ -4,7 +4,7 @@
 
 ## Thông tin cá nhân
 
-- Họ và tên: Lâm Quang Anh Quângit
+- Họ và tên: Lâm Quang Anh Quân
 - Mã học viên: 2A202602467
 - Vai trò / bối cảnh: Sinh viên, team lead của nhóm 4 thành viên phát triển và liên tục cải tiến một sản phẩm phần mềm.
 - Công việc hằng tuần:
