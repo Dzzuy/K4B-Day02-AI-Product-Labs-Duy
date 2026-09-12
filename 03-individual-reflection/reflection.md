@@ -15,18 +15,18 @@
 
 Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "tham gia thảo luận".
 
-| Hoạt động | Tôi đã làm gì? (việc cụ thể) | Kết quả / ảnh hưởng tới nhóm |
-|---|---|---|
-| Scan cá nhân | Tôi scan 8 vấn đề từ trải nghiệm học AI, tìm tài liệu và làm nhóm. | Nhóm có thêm các hướng về learning overload, tài liệu phân tán và task nhóm chưa rõ. |
-| Pitch Problem Card | Tôi pitch mạnh nhất bài "sau một ngày học AI không biết phần nào đã hiểu thật". | Nhóm dùng bài này làm second choice và challenge lại metric "hiểu 40-60%" có hơi cảm tính. |
-| Challenge bài của bạn khác | Tôi hỏi các bài khác có actor rõ chưa, có đo được thời gian không, và có cần AI thật không. | Nhóm tránh chọn bài chỉ vì nghe giống Agent, nhất là các bài debug/code hoặc task management. |
-| Gom trùng / cluster | Tôi giúp gom các problem thành các cụm: learning support, task coordination, developer workflow, DA workflow và campus navigation. | Bảng shortlist rõ hơn, nhóm nhìn được bài nào trùng pattern và bài nào đứng riêng. |
-| Chọn candidate problem | Tôi đồng ý chọn campus navigation vì actor rộng, workflow dễ hiểu và metric thời gian rõ hơn bài learning support. | Nhóm chốt được final problem, nhưng vẫn ghi learning support của tôi là backup/second choice. |
-| Validation / research | Tôi nhắc nhóm cần validate bằng interview/survey và không dùng số AI đưa nếu chưa kiểm được nguồn. | Phần validation/research có hướng rõ hơn, dù nhóm vẫn cần điền thêm bằng chứng thật. |
-| Workflow nhóm | Tôi góp ý nên tách scope chính là tìm phòng trong VinUni trước, còn quán ăn quanh Ocean Park là mở rộng. | Workflow bớt rộng và có boundary dễ defend hơn. |
-| Problem Statement | Tôi giúp sửa câu problem theo mạch actor -> workflow -> bottleneck -> impact -> metric. | Problem Statement không chỉ nói "map khó dùng", mà nói rõ thông tin indoor map/tiện nghi bị phân tán. |
-| Rule / Workflow / Agent | Tôi góp ý không nên nhảy thẳng lên Agent, vì nhiều case có thể xử lý bằng rule/index/map data trước. | Nhóm có cơ sở so sánh No AI / Rule / Workflow / Agent rõ hơn. |
-| Decision | Tôi ủng hộ hướng Not Yet hoặc pilot nhỏ trước khi Go full solution. | Quyết định cuối có thể dựa trên dữ liệu indoor map, survey và rủi ro thông tin sai. |
+| Hoạt động                  | Tôi đã làm gì? (việc cụ thể)                                                                                                       | Kết quả / ảnh hưởng tới nhóm                                                                          |
+| ----------------------------| ------------------------------------------------------------------------------------------------------------------------------------| -------------------------------------------------------------------------------------------------------|
+| Scan cá nhân               | Tôi scan 8 vấn đề từ trải nghiệm học AI, tìm tài liệu và làm nhóm.                                                                 | Nhóm có thêm các hướng về learning overload, tài liệu phân tán và task nhóm chưa rõ.                  |
+| Pitch Problem Card         | Tôi pitch mạnh nhất bài "sau một ngày học AI không biết phần nào đã hiểu thật".                                                    | Nhóm dùng bài này làm second choice và challenge lại metric "hiểu 40-60%" có hơi cảm tính.            |
+| Challenge bài của bạn khác | Tôi hỏi các bài khác có actor rõ chưa, có đo được thời gian không, và có cần AI thật không.                                        | Nhóm tránh chọn bài chỉ vì nghe giống Agent, nhất là các bài debug/code hoặc task management.         |
+| Gom trùng / cluster        | Tôi giúp gom các problem thành các cụm: learning support, task coordination, developer workflow, DA workflow và campus navigation. | Bảng shortlist rõ hơn, nhóm nhìn được bài nào trùng pattern và bài nào đứng riêng.                    |
+| Chọn candidate problem     | Tôi đồng ý chọn campus navigation vì actor rộng, workflow dễ hiểu và metric thời gian rõ hơn bài learning support.                 | Nhóm chốt được final problem, nhưng vẫn ghi learning support của tôi là backup/second choice.         |
+| Validation / research      | Tôi nhắc nhóm cần validate bằng interview/survey và không dùng số AI đưa nếu chưa kiểm được nguồn.                                 | Phần validation/research có hướng rõ hơn, dù nhóm vẫn cần điền thêm bằng chứng thật.                  |
+| Workflow nhóm              | Tôi góp ý nên tách scope chính là tìm phòng trong VinUni trước, còn quán ăn quanh Ocean Park là mở rộng.                           | Workflow bớt rộng và có boundary dễ defend hơn.                                                       |
+| Problem Statement          | Tôi giúp sửa câu problem theo mạch actor -> workflow -> bottleneck -> impact -> metric.                                            | Problem Statement không chỉ nói "map khó dùng", mà nói rõ thông tin indoor map/tiện nghi bị phân tán. |
+| Rule / Workflow / Agent    | Tôi góp ý không nên nhảy thẳng lên Agent, vì nhiều case có thể xử lý bằng rule/index/map data trước.                               | Nhóm có cơ sở so sánh No AI / Rule / Workflow / Agent rõ hơn.                                         |
+| Decision                   | Tôi ủng hộ hướng Not Yet hoặc pilot nhỏ trước khi Go full solution.                                                                | Quyết định cuối có thể dựa trên dữ liệu indoor map, survey và rủi ro thông tin sai.                   |
 
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 

@@ -4,14 +4,14 @@
 
 ## Thành viên nhóm
 
-| STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
-| -----| -----------| -------------| ------------------------------------------------------------------|
-| 1 | Phạm Đình Duy | 2A202602913 | Synthesis, problem framing, learning pain |
-| 2 | Bùi Văn Quang | 2A202602688 | Developer workflow, reporting/code review/test pain |
-| 3 | Võ Trường An | 2A202602656 | Full-stack debug, codebase navigation, setup pain |
-| 4 | Lâm Quang Anh Quân | 2A202602467 | Team coordination, task ownership, task clarity |
-| 5 | Phạm Quốc Đạt | 2A202602384 | Data analyst workflow, stakeholder request, SQL pain |
-| 6 | Nguyễn Hữu Chương | 2A202602601 | Campus navigation, student/guest daily pain |
+| STT | Họ và tên          | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
+| -----| --------------------| -------------| ------------------------------------------------------------------|
+| 1   | Phạm Đình Duy      | 2A202602913 | Synthesis, problem framing, learning pain                        |
+| 2   | Bùi Văn Quang      | 2A202602688 | Developer workflow, reporting/code review/test pain              |
+| 3   | Võ Trường An       | 2A202602656 | Full-stack debug, codebase navigation, setup pain                |
+| 4   | Lâm Quang Anh Quân | 2A202602467 | Team coordination, task ownership, task clarity                  |
+| 5   | Phạm Quốc Đạt      | 2A202602384 | Data analyst workflow, stakeholder request, SQL pain             |
+| 6   | Nguyễn Hữu Chương  | 2A202602601 | Campus navigation, student/guest daily pain                      |
 
 **Candidate problem nhóm chọn (1 câu):**
 
@@ -142,187 +142,221 @@ Bằng chứng đính kèm (nếu có): `02-group-problem-statement-survey.png`,
 
 ---
 
-## Phase 5 — Workflow + Problem Statement
+# Phase 5 — Workflow + Problem Statement
 
-### 5.1. Current workflow bản nhóm
+## 5.1. Current workflow bản nhóm
 
 Dán workflow hoặc link file: `02-group-problem-statement-workflow.png/pdf/md`
 
 ```text
-[1 ...: __' - ai làm] → [2 ...: __'] → [3 ...: __'] → [4 ... bottleneck: __'] → ...
+CURRENT STATE — khoảng 15–20 phút tìm kiếm/xác nhận
+
+[1 Nhận mã phòng hoặc phát sinh nhu cầu tìm quán: 1' - người dùng]
+→ [2 Mở Google Maps/mạng xã hội: 2' - người dùng]
+→ [3 Đọc và so sánh thông tin phân tán: 4–5' - người dùng]
+→ [4 Hỏi bảo vệ/sinh viên hoặc gọi quán: 4–5' - người dùng] <-- bottleneck
+→ [5 Đi thử, phát hiện sai đường/thông tin cũ và tìm lại: 5–7' - người dùng] <-- bottleneck
+→ [6 Đến đúng phòng hoặc chọn được quán phù hợp]
 ```
+
+> Thời gian trên là ước lượng ban đầu từ Problem Card, chưa phải kết quả validation chính thức. Thời gian đo là phần tìm kiếm, xác nhận và đi sai đường; không tính thời gian đi bộ đúng tuyến.
 
 | Bước | Actor | Input | Output | Thời gian / tần suất | Ghi chú (handoff? bottleneck?) |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
+| 1 | Sinh viên/khách/giảng viên | Mã phòng, tên hội trường hoặc nhu cầu ăn uống | Nhu cầu tìm kiếm ban đầu | Khoảng 1 phút; thường xảy ra đầu học kỳ, khi đổi phòng hoặc giờ trưa | Mã phòng có thể ngắn và khó hiểu |
+| 2 | Người dùng | Mã phòng hoặc từ khóa quán ăn | Kết quả Google Maps, bài đăng hoặc review | Khoảng 2 phút/lần | Google Maps thường chỉ đưa người dùng đến tòa nhà, chưa chắc có hướng dẫn chi tiết trong từng tầng |
+| 3 | Người dùng | Nhiều kết quả từ các nguồn khác nhau | Danh sách vị trí có thể phù hợp | Khoảng 4–5 phút/lần | Thông tin phân tán; tên phòng, menu và giờ mở cửa có thể không đồng nhất |
+| 4 | Người dùng, bảo vệ, sinh viên khác hoặc nhân viên quán | Câu hỏi về vị trí hoặc trạng thái quán | Hướng dẫn miệng hoặc xác nhận qua điện thoại | Khoảng 4–5 phút/lần | Bottleneck chính; phụ thuộc người khác có mặt và biết thông tin |
+| 5 | Người dùng | Hướng dẫn chưa được xác nhận hoàn toàn | Tiếp tục đi hoặc phải tìm lại | Khoảng 5–7 phút/lần | Bottleneck; có thể đi sai tầng, sai lối hoặc tới quán đã đóng/chật |
+| 6 | Người dùng | Vị trí cuối cùng đã được xác nhận | Đến đúng phòng hoặc chọn được quán | Tổng thời gian tìm kiếm khoảng 15–20 phút | Có nguy cơ trễ lớp hoặc mất nhiều thời gian nghỉ trưa |
+| 7 | Không áp dụng | Không áp dụng | Không áp dụng | Không áp dụng | Workflow hiện tại chỉ cần 6 bước |
 
 **Bottleneck chính (2-3 câu):**
 
 ```text
+Bottleneck chính nằm ở bước xác nhận vị trí và tình trạng điểm đến. Không có một nguồn thống nhất chứa mã phòng, tầng, lối đi và dữ liệu tiện nghi nên người dùng phải hỏi người khác hoặc kiểm tra nhiều nguồn.
 
+Phần này có thể chiếm khoảng 9–12 phút trong tổng thời gian tìm kiếm. Tuy nhiên đây mới là ước lượng ban đầu và nhóm cần bấm giờ hoặc phỏng vấn người dùng để xác nhận.
 ```
 
-### 5.2. Future workflow bản nhóm
-
-Phải nhìn ra 5 thứ: bước nào máy (Rule), bước nào AI, bước nào người, boundary ở đâu, fallback khi AI sai.
+## 5.2. Future workflow bản nhóm
 
 ```text
-[1 ...: __' - máy] → [2 AI ...: __'] → [3 ... review: __' - boundary] → [4 ... gửi]
+FUTURE STATE — mục tiêu dưới 4 phút để nhận hướng dẫn có thể dùng
 
-Fallback: ...
+[1 Nhập mã phòng/tên địa điểm hoặc nhu cầu ăn uống: 30s - người dùng]
+→ [2 Phân loại nhu cầu và chuẩn hóa từ khóa: <5s - Rule]
+→ [3 Truy xuất dữ liệu phòng hoặc địa điểm phù hợp: 10–30s - Workflow/tool]
+→ [4 AI tổng hợp hướng dẫn hoặc xếp hạng lựa chọn: 10–30s - AI]
+→ [5 Xem nguồn, bản đồ và xác nhận lựa chọn: 30–60s - người dùng] <-- human boundary
+→ [6 Mở lộ trình/bản đồ chính thức: <10s - máy]
+
+Fallback: Nếu hệ thống không tìm thấy dữ liệu hoặc độ tin cậy thấp, không tự đoán. Hệ thống hiển thị file PDF sơ đồ chính thức, vị trí quầy bảo vệ gần nhất hoặc nút gọi quán. Người dùng có thể báo sai để người quản trị cập nhật dữ liệu.
 ```
 
 **Before/after impact:**
 
 | Metric | Trước | Sau kỳ vọng | Cách đo |
 |---|---:|---:|---|
-| Tổng thời gian | | | |
-| Số bước | | | |
-| Số bước thủ công | | | |
-| Bottleneck chính | | | |
-| Risk mới | | | |
+| Tổng thời gian tìm kiếm và xác nhận | Khoảng 15–20 phút | Dưới 4 phút | Bấm giờ từ lúc nhận mã phòng/nhập nhu cầu đến khi có hướng dẫn được người dùng chấp nhận |
+| Thời gian từ câu hỏi đến hướng dẫn đầu tiên | Chưa đo riêng | Dưới 2 phút | Ghi timestamp lúc gửi câu hỏi và lúc kết quả xuất hiện |
+| Số bước | 6 bước | 5–6 bước ngắn | Đếm các bước người dùng phải thực hiện |
+| Số bước thủ công | Khoảng 5 bước | Khoảng 2 bước | Đếm thao tác cần người dùng tự tìm, so sánh hoặc hỏi người khác |
+| Tỷ lệ tìm đúng phòng/lựa chọn đúng ngay lần đầu | Chưa có baseline | Ít nhất 90% trong pilot | Giao nhiệm vụ tìm phòng rồi kiểm tra kết quả thực tế |
+| Tỷ lệ phải hỏi trực tiếp | Chưa có baseline | Giảm ít nhất 80% | Hỏi người tham gia có cần nhờ bảo vệ/sinh viên khác không |
+| Bottleneck chính | Xác nhận thủ công từ nhiều nguồn | Chất lượng và độ mới của dữ liệu | Theo dõi câu trả lời thiếu dữ liệu, sai phòng hoặc sai giờ mở cửa |
+| Risk mới | Không có câu trả lời tập trung | AI chỉ sai đường hoặc dùng dữ liệu cũ | Lưu feedback, kiểm tra nguồn và đánh dấu kết quả có độ tin cậy thấp |
 
-### 5.3. Problem Statement v0 (mỗi field 2-3 câu)
+## 5.3. Problem Statement v0
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** | |
+| **Actor** | Actor chính là tân sinh viên, sinh viên trường khác, giảng viên thỉnh giảng và khách lần đầu đến VinUni. Sinh viên hiện tại cũng gặp vấn đề khi phòng học hoặc địa điểm thay đổi. |
+| **Workflow** | Người dùng nhận mã phòng hoặc có nhu cầu tìm tiện nghi, sau đó tìm trên Google Maps, mạng xã hội hoặc hỏi người xung quanh. Họ phải tự ghép thông tin rồi đi thử đến địa điểm. |
+| **Bottleneck** | Thông tin mã phòng, tầng, lối đi và tiện nghi chưa nằm trong một nguồn dễ tra cứu. Người dùng mất nhiều thời gian nhất ở bước kiểm tra thông tin và hỏi người khác. |
+| **Impact** | Người dùng có thể trễ lớp, lỡ điểm danh hoặc mất 20–30 phút nghỉ trưa. Người mới cũng cảm thấy bối rối và có trải nghiệm không tốt khi đến campus. |
+| **Success Metric** | Mục tiêu là đưa hướng dẫn đầu tiên trong dưới 2 phút và hoàn tất việc tìm kiếm/xác nhận trong dưới 4 phút. Pilot hướng tới tỷ lệ tìm đúng ngay lần đầu ít nhất 90% và giảm ít nhất 80% số trường hợp phải hỏi trực tiếp. |
+| **Boundary** | Hệ thống hỗ trợ tra cứu và đề xuất, nhưng người dùng vẫn kiểm tra bản đồ hoặc nguồn trước khi di chuyển. Hệ thống không được tự đoán khi thiếu dữ liệu và không bảo đảm quán còn bàn trống theo thời gian thực. |
 
 **Câu hỏi AI phản biện v0 (nếu có):**
-- Field nào mơ hồ:
-- Tôi sửa gì:
+
+- Field nào mơ hồ: Problem đang ghép hai workflow là tìm phòng và tìm quán ăn. Baseline 15–20 phút cũng chưa được xác nhận bằng bấm giờ hoặc khảo sát.
+- Tôi sửa gì: Chọn tìm phòng VinUni làm MVP chính. Quán ăn quanh Ocean Park là nhánh mở rộng sau khi MVP đã có dữ liệu và kết quả pilot.
 
 ---
 
-## Phase 6 — Rule / Workflow / Agent + Decision
+# Phase 6 — Rule / Workflow / Agent + Decision
 
-### 6.0. Ma trận độ phù hợp (suy nghĩ nhanh, không thay quyết định cuối)
+## 6.0. Ma trận độ phù hợp
 
-- Độ mơ hồ: [ ] Thấp (có đúng/sai rõ) / [ ] Cao (nhiều cách trả lời vẫn OK) — Vì sao:
-- Độ phức tạp: [ ] Thấp (1-2 bước) / [ ] Cao (3+ bước/nguồn, phụ thuộc nhau) — Vì sao:
+- Độ mơ hồ: [ ] Thấp / [x] Cao — Vì sao: Người dùng có thể nhập mã phòng, tên viết tắt, mô tả sự kiện hoặc yêu cầu quán ăn bằng ngôn ngữ tự nhiên. Tuy nhiên vị trí phòng sau khi xác định đúng mã là dữ liệu có đúng/sai khá rõ.
+- Độ phức tạp: [ ] Thấp / [x] Cao — Vì sao: Hệ thống có nhiều nguồn dữ liệu và phải rẽ nhánh giữa tìm phòng với tìm tiện nghi. Mỗi nhánh có cách truy xuất và tiêu chí kiểm tra khác nhau.
 
 **Bài toán nhóm nằm ở ô nào:**
 
 ```text
-
+Độ mơ hồ cao – Độ phức tạp cao, nhưng có thể giới hạn thành một Workflow có các bước và nhánh được xác định trước.
 ```
 
 **Vì sao (2-3 câu):**
 
 ```text
+Câu hỏi của người dùng có nhiều cách diễn đạt và đôi khi thiếu mã phòng hoặc tiêu chí lựa chọn. Hệ thống cũng phải lấy dữ liệu từ sơ đồ nội khu, danh sách phòng và nguồn địa điểm bên ngoài.
 
+Tuy nhiên các hành động chính vẫn có thể thiết kế trước. Vì vậy nhóm chưa cần một Agent tự lập kế hoạch hoàn toàn.
 ```
 
-### 6.1. So sánh Rule / Workflow / Agent (so trên cùng 1 bài)
+## 6.1. So sánh Rule / Workflow / Agent
 
 | Mức | Phương án cho bài toán nhóm | Khi nào đủ | Rủi ro | Chọn? (Dùng cho bước nào?) |
 |---|---|---|---|---|
-| **Rule** | | | | |
-| **Workflow** | | | | |
-| **Agent** | | | | |
+| **Rule** | Dùng bảng ánh xạ mã phòng → tòa → tầng → sơ đồ; dùng điều kiện giờ mở cửa và khoảng cách để lọc quán | Đủ khi người dùng nhập đúng mã phòng hoặc chọn từ danh sách có sẵn | Không hiểu tốt lỗi chính tả, tên gọi không chính thức hoặc yêu cầu tự nhiên | Có dùng cho chuẩn hóa mã phòng, kiểm tra dữ liệu và lọc điều kiện cứng |
+| **Workflow** | Phân loại nhu cầu → lấy dữ liệu từ nguồn phù hợp → xếp hạng → tạo hướng dẫn → người dùng xác nhận | Phù hợp với MVP vì các bước và nhánh đã biết trước | Nếu dữ liệu sai hoặc cũ thì toàn bộ kết quả sau đó cũng có thể sai | **Chọn làm mức chính** |
+| **Agent** | Agent tự chọn công cụ, tìm thêm nguồn, thay đổi kế hoạch và gọi nhiều API cho đến khi có câu trả lời | Chỉ cần khi truy vấn rất mở, thiếu dữ liệu và cần tự tìm nhiều nguồn động | Khó kiểm soát, tốn chi phí, có thể chọn nguồn kém tin cậy hoặc tự suy đoán | Chưa chọn cho MVP; chỉ cân nhắc ở phiên bản sau |
 
-**5 câu hỏi chốt (trả lời câu đầy đủ):**
-1. Rule có giải được 70-80% case không?
-2. Các bước có đi thẳng một đường không hay phải rẽ nhánh?
-3. Có thật sự cần Agent tự lập kế hoạch + gọi tool không?
-4. Nếu AI sai, ai phát hiện đầu tiên và sửa trong bao lâu?
-5. Có hạ được từ Agent → Workflow → Rule không?
+**5 câu hỏi chốt:**
+
+1. **Rule có giải được 70–80% case không?**  
+   Rule có thể giải quyết khoảng 70–80% trường hợp tìm phòng nếu người dùng nhập đúng mã và nhóm có bảng dữ liệu phòng đầy đủ. Rule không đủ cho lỗi chính tả, tên gọi không chính thức và yêu cầu quán ăn có nhiều tiêu chí.
+
+2. **Các bước có đi thẳng một đường không hay phải rẽ nhánh?**  
+   Workflow phải rẽ nhánh sau khi xác định người dùng muốn tìm phòng hay tìm tiện nghi. Sau đó mỗi nhánh vẫn đi theo một chuỗi bước khá cố định.
+
+3. **Có thật sự cần Agent tự lập kế hoạch + gọi tool không?**  
+   Chưa cần trong MVP. Workflow có thể gọi đúng nguồn theo từng nhánh mà không cần Agent tự quyết định kế hoạch dài hoặc tự thực hiện hành động ngoài yêu cầu.
+
+4. **Nếu AI sai, ai phát hiện đầu tiên và sửa trong bao lâu?**  
+   Người dùng là người phát hiện đầu tiên khi hướng dẫn không khớp với sơ đồ hoặc địa điểm thực tế. Họ có thể chuyển sang PDF/hỏi bảo vệ ngay trong khoảng một phút; nhóm quản trị dữ liệu cần kiểm tra và sửa bản ghi được báo sai trong vòng 24 giờ.
+
+5. **Có hạ được từ Agent → Workflow → Rule không?**  
+   Có. MVP nên hạ xuống Workflow; riêng việc ánh xạ một mã phòng chính xác có thể tiếp tục hạ xuống Rule để tăng độ ổn định.
 
 **Mức chọn:**
 
 ```text
-[Rule / Workflow / Agent]
+Workflow
 ```
 
 **Vì sao chọn (3-4 câu):**
 
 ```text
+Bài toán có nhiều bước và hai nhánh dữ liệu, nhưng đường đi của mỗi nhánh có thể xác định trước. Workflow đủ để phân loại yêu cầu, lấy dữ liệu, tạo hướng dẫn và yêu cầu người dùng xác nhận.
 
+AI chỉ nên hỗ trợ hiểu câu hỏi và trình bày kết quả. Dữ liệu vị trí phải đến từ bảng phòng và sơ đồ đã được xác nhận, không để AI tự tạo.
 ```
 
 **Vì sao không chọn mức đơn giản hơn (2-3 câu):**
 
 ```text
+Rule thuần túy phù hợp với mã phòng chính xác nhưng khó xử lý lỗi chính tả, tên gọi không chính thức và yêu cầu bằng ngôn ngữ tự nhiên. Nó cũng khó xếp hạng quán ăn theo nhiều tiêu chí cùng lúc.
 
+Tuy nhiên Rule vẫn được giữ bên trong Workflow cho những phần có đúng/sai rõ như ánh xạ mã phòng và kiểm tra giờ mở cửa.
 ```
 
-### 6.2. Problem Statement v1 (v0 sửa chặt hơn + 3 field cuối)
+## 6.2. Problem Statement v1
 
 | Field | Nội dung |
 |---|---|
-| **Actor** | |
-| **Workflow** | |
-| **Bottleneck** | |
-| **Impact** | |
-| **Success Metric** | |
-| **Boundary** (làm / không làm) | |
-| **AI intervention point** (can thiệp sau bước nào, trước bước nào) | |
-| **Mức chọn** (Rule / Workflow / Agent + 1 câu vì sao) | |
-| **Rủi ro & người thật kiểm tra** (rủi ro lớn nhất + ai kiểm tra bằng cách nào) | |
+| **Actor** | Actor chính của MVP là tân sinh viên, khách và giảng viên thỉnh giảng cần tìm phòng hoặc hội trường trong VinUni. Sinh viên hiện tại là actor phụ khi có đổi phòng hoặc tham gia sự kiện ở khu vực chưa quen. |
+| **Workflow** | Người dùng nhận mã phòng, tìm bằng Google Maps rồi hỏi bảo vệ hoặc sinh viên khác vì thiếu chỉ dẫn từng tầng. MVP cho phép họ nhập mã/tên phòng, nhận tòa, tầng, lối đi và mở sơ đồ nguồn để kiểm tra. |
+| **Bottleneck** | Bước tốn thời gian nhất là chuyển từ mã phòng sang một lộ trình nội khu có thể sử dụng. Thông tin hiện bị phân tán và việc xác nhận phụ thuộc vào người khác. |
+| **Impact** | Người dùng có thể mất khoảng 15–20 phút tìm kiếm và đi sai đường, dẫn đến trễ lớp hoặc lỡ điểm danh. Con số này đang là ước lượng và cần validation trước khi dùng như baseline chính thức. |
+| **Success Metric** | Hướng dẫn đầu tiên xuất hiện trong dưới 2 phút; tổng thời gian tìm kiếm/xác nhận dưới 4 phút; tỷ lệ tìm đúng ngay lần đầu ít nhất 90%. Tỷ lệ phải hỏi trực tiếp giảm ít nhất 80% trong pilot. |
+| **Boundary (làm / không làm)** | MVP làm tra cứu phòng, tòa, tầng, lối đi và hiển thị sơ đồ nguồn. MVP chưa làm định vị indoor theo thời gian thực, không bảo đảm tình trạng bàn trống và không tự đặt bàn hoặc thanh toán; tìm quán chỉ là extension. |
+| **AI intervention point** | AI can thiệp sau khi hệ thống nhận câu hỏi và trước khi kết quả được hiển thị. AI chuẩn hóa cách hỏi, chọn từ các bản ghi đã truy xuất và tạo hướng dẫn dễ đọc; AI không được tự tạo vị trí không có trong dữ liệu. |
+| **Mức chọn** | Workflow — vì bài toán cần nhiều bước và có rẽ nhánh nhưng chưa cần Agent tự lập kế hoạch. |
+| **Rủi ro & người thật kiểm tra** | Rủi ro lớn nhất là sơ đồ cũ hoặc AI chỉ sai tầng/lối đi. Người dùng kiểm tra bản đồ nguồn trước khi di chuyển; một thành viên nhóm hoặc đầu mối quản trị kiểm tra các báo cáo sai và cập nhật dữ liệu. |
 
-### 6.3. Final decision
+## 6.3. Final decision
 
-| Câu hỏi                               | Yes / Not Yet / No | Ghi chú (câu đầy đủ) |
-| ---------------------------------------| --------------------| ----------------------|
-| Actor + workflow rõ chưa?             |                    |                      |
-| Baseline + metric đo được chưa?       |                    |                      |
-| Data/input đủ dùng chưa?              |                    |                      |
-| AI sai, hậu quả chấp nhận được không? |                    |                      |
-| Có người review/owner không?          |                    |                      |
-| Có cách non-AI đơn giản hơn không?    |                    |                      |
+| Câu hỏi | Yes / Not Yet / No | Ghi chú (câu đầy đủ) |
+|---|---|---|
+| Actor + workflow rõ chưa? | Yes | Actor chính và workflow tìm phòng đã rõ; tìm quán được chuyển thành extension. |
+| Baseline + metric đo được chưa? | Not Yet | Nhóm có ước lượng 15–20 phút nhưng chưa có log bấm giờ, interview hoặc survey để xác nhận. |
+| Data/input đủ dùng chưa? | Not Yet | Nhóm chưa xác nhận quyền sử dụng sơ đồ tầng, danh sách mã phòng và mức độ đầy đủ của dữ liệu. |
+| AI sai, hậu quả chấp nhận được không? | Yes, có điều kiện | Có thể chấp nhận trong pilot nhỏ nếu luôn hiển thị nguồn và có fallback; không được dùng AI để tự đoán vị trí. |
+| Có người review/owner không? | Not Yet | Nhóm cần chỉ định một thành viên chịu trách nhiệm kiểm tra sơ đồ, danh sách phòng và feedback. |
+| Có cách non-AI đơn giản hơn không? | Yes | Một trang tìm kiếm mã phòng, bảng dữ liệu hoặc PDF có QR code có thể giải quyết phần lớn trường hợp cơ bản. |
 
 **Decision:**
 
 ```text
-[Go / Not Yet / No-Go]
+Not Yet
 ```
 
 **Lý do (3-4 câu dựa trên bằng chứng):**
 
 ```text
+Problem có actor và workflow rõ, nhưng baseline 15–20 phút hiện mới là ước lượng từ Problem Card. Nhóm cũng chưa xác nhận có sơ đồ chính thức và danh sách phòng đủ sạch để tạo hướng dẫn chính xác.
 
+AI không thể bù cho dữ liệu vị trí bị thiếu hoặc sai. Vì vậy nhóm nên validation và chuẩn bị một tập dữ liệu nhỏ trước, sau đó mới Go với pilot giới hạn.
 ```
 
-**Nếu Go — pilot nhỏ nhất (data nào, chạy tay ra sao, đo 3 số nào):**
+**Nếu Go — pilot nhỏ nhất:**
 
 ```text
+Chưa Go ngay. Sau khi đủ điều kiện, pilot chỉ nên dùng một tòa hoặc một tầng với khoảng 20–30 phòng đã được kiểm tra bằng sơ đồ chính thức.
 
+Nhóm có thể lưu mã phòng, tầng, mốc rẽ và đường dẫn sơ đồ trong Google Sheets/JSON. Workflow được chạy thử bằng chatbot đơn giản, chưa cần Agent và chưa cần định vị indoor theo thời gian thực.
+
+Ba số cần đo:
+1. Thời gian trung vị từ lúc nhập mã phòng đến khi nhận hướng dẫn có thể dùng.
+2. Tỷ lệ người dùng xác định hoặc tìm đúng phòng ngay lần đầu.
+3. Tỷ lệ người dùng vẫn phải hỏi bảo vệ hoặc sinh viên khác.
 ```
 
 **Nếu Not Yet — cần validate gì trước:**
 
 ```text
-
+1. Phỏng vấn 3 người mới đến VinUni và ghi lại câu nói nguyên văn.
+2. Cho 5–10 người thực hiện nhiệm vụ tìm 2–3 phòng rồi bấm giờ để có baseline thật.
+3. Xác nhận nhóm có thể sử dụng sơ đồ chính thức và tạo danh sách mã phòng cho khu vực pilot.
+4. So sánh prototype AI với một phương án non-AI gồm bảng tìm kiếm phòng và PDF có QR code.
+5. Chỉ định một data owner chịu trách nhiệm kiểm tra và cập nhật thông tin.
 ```
 
 **Nếu No-Go — làm gì thay AI:**
 
 ```text
-
+Không áp dụng vì quyết định hiện tại là Not Yet, không phải No-Go. Nếu dữ liệu không đủ để làm AI, nhóm có thể tạo một trang tra cứu mã phòng đơn giản kết hợp QR code dẫn tới PDF sơ đồ chính thức.
 ```
-
-**Exit / rollback (khi nào dừng AI, quay về cách cũ):**
-
-```text
-
-```
-
----
-
-### Self-check nộp phần 02 (nhóm)
-- [ ] Có nhật ký hội tụ 9-12 → 1 (cluster + shortlist + score)
-- [ ] Có validation (quote thật) + research (link kiểm được)
-- [ ] Có workflow trước/sau đủ thời gian, handoff, bottleneck, boundary, fallback
-- [ ] Có PS v0 → v1, metric có trước/sau + cách đo, boundary có làm/không làm
-- [ ] Có so sánh Rule/Workflow/Agent + Decision Go/Not Yet/No-Go có lý do
