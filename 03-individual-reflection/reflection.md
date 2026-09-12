@@ -21,9 +21,9 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 | Pitch Problem Card         | Tôi pitch mạnh nhất bài "sau một ngày học AI không biết phần nào đã hiểu thật".                                                    | Nhóm dùng bài này làm second choice và challenge lại metric "hiểu 40-60%" có hơi cảm tính.            |
 | Challenge bài của bạn khác | Tôi hỏi các bài khác có actor rõ chưa, có đo được thời gian không, và có cần AI thật không.                                        | Nhóm tránh chọn bài chỉ vì nghe giống Agent, nhất là các bài debug/code hoặc task management.         |
 | Gom trùng / cluster        | Tôi giúp gom các problem thành các cụm: learning support, task coordination, developer workflow, DA workflow và campus navigation. | Bảng shortlist rõ hơn, nhóm nhìn được bài nào trùng pattern và bài nào đứng riêng.                    |
-| Chọn candidate problem     | Tôi đồng ý chọn campus navigation vì actor rộng, workflow dễ hiểu và metric thời gian rõ hơn bài learning support.                 | Nhóm chốt được final problem, nhưng vẫn ghi learning support của tôi là backup/second choice.         |
+| Chọn candidate problem     | Tôi brainstorm cùng nhóm để refine idea campus navigation thành hai tình huống rõ: tìm phòng/hội trường trong VinUni và chọn tiện nghi/quán ăn quanh Ocean Park. | Nhóm chốt được final problem có cả hai pain, nhưng vẫn ghi learning support của tôi là backup/second choice. |
 | Validation / research      | Tôi nhắc nhóm cần validate bằng interview/survey và không dùng số AI đưa nếu chưa kiểm được nguồn.                                 | Phần validation/research có hướng rõ hơn, dù nhóm vẫn cần điền thêm bằng chứng thật.                  |
-| Workflow nhóm              | Tôi góp ý nên tách scope chính là tìm phòng trong VinUni trước, còn quán ăn quanh Ocean Park là mở rộng.                           | Workflow bớt rộng và có boundary dễ defend hơn.                                                       |
+| Workflow nhóm              | Tôi góp ý cách refine hai nhánh: tìm phòng cần tòa/tầng/lối đi; tìm tiện nghi cần vị trí, khoảng cách, giờ mở cửa và mức phù hợp. Tôi cũng đề xuất MVP ưu tiên tìm phòng, còn quán ăn/tiện nghi là extension. | Workflow có đủ hai use case nhưng vẫn có boundary rõ và không bị quá rộng cho pilot đầu. |
 | Problem Statement          | Tôi giúp sửa câu problem theo mạch actor -> workflow -> bottleneck -> impact -> metric.                                            | Problem Statement không chỉ nói "map khó dùng", mà nói rõ thông tin indoor map/tiện nghi bị phân tán. |
 | Rule / Workflow / Agent    | Tôi góp ý không nên nhảy thẳng lên Agent, vì nhiều case có thể xử lý bằng rule/index/map data trước.                               | Nhóm có cơ sở so sánh No AI / Rule / Workflow / Agent rõ hơn.                                         |
 | Decision                   | Tôi ủng hộ hướng Not Yet hoặc pilot nhỏ trước khi Go full solution.                                                                | Quyết định cuối có thể dựa trên dữ liệu indoor map, survey và rủi ro thông tin sai.                   |
@@ -31,7 +31,7 @@ Ghi việc cụ thể + kết quả cụ thể. Không ghi chung chung kiểu "t
 **Dấu tay rõ nhất của tôi trong artifact cuối (1-2 câu):**
 
 ```text
-Dấu tay rõ nhất của tôi là phần synthesis/problem framing: tôi giúp nhóm gom nhiều idea rời rạc thành cluster và ép mỗi bài phải có actor, workflow, bottleneck, metric. Tôi cũng giữ lại bài learning support của mình như second choice, nhưng chấp nhận đổi sang campus navigation vì bài đó dễ đo và dễ demo hơn.
+Dấu tay rõ nhất của tôi là phần synthesis và refine problem: tôi giúp nhóm gom các idea thành cluster, rồi làm rõ campus navigation không chỉ là tìm phòng mà còn là tìm tiện nghi/quán ăn quanh Ocean Park. Tôi đề xuất giữ hai nhánh use case nhưng pilot tìm phòng trước, để bài vẫn dễ đo và không quá rộng.
 ```
 
 ---
@@ -65,9 +65,9 @@ Chọn 3-4 câu trong 6 câu dưới để viết thành đoạn 8-12 câu (khô
 **Reflection:**
 
 ```text
-Khi nghe top 3 problems của các bạn khác, tôi học được là một problem nghe "ngầu" chưa chắc là problem tốt để làm AI. Ví dụ các bài debug code, review PR hay SQL có vẻ rất hợp AI, nhưng nếu không có repo/log/schema thật thì nhóm sẽ khó chứng minh. Ban đầu tôi muốn pitch bài learning support của mình vì nó rất gần trải nghiệm học AI: học cả ngày, nhiều nguồn, rồi không biết phần nào đã hiểu thật. Nhưng sau khi bị challenge, tôi thấy metric "hiểu 40-60%" còn cảm tính, cần quiz hoặc checklist rõ hơn mới defend được. Vì vậy tôi đồng ý để nhóm chọn campus navigation của Chương, vì actor rộng hơn và workflow tìm phòng/tìm đường dễ giải thích hơn.
+Khi nghe top 3 problems của các bạn khác, tôi nhận ra một idea nghe "ngầu" chưa chắc đã là bài tốt để làm AI. Các bài debug code, review PR hay SQL nhìn thì rất hợp AI, nhưng nếu không có repo, log hoặc schema thật thì nhóm khó nói rõ pain ở đâu và demo cũng dễ bị chung chung. Ban đầu tôi muốn giữ bài learning support của mình vì nó đúng với trải nghiệm học AI của tôi: học cả ngày, đọc nhiều nguồn, rồi về nhà vẫn không biết mình đã hiểu tới đâu. Sau khi các bạn hỏi lại, tôi thấy con số "hiểu 40-60%" chỉ là cảm giác của tôi. Muốn nói chắc hơn thì phải có quiz hoặc checklist rõ ràng. Vì vậy tôi đồng ý chọn campus navigation của Chương, vì nhiều người có thể gặp hơn và câu chuyện tìm phòng hoặc tìm tiện nghi cũng dễ hình dung hơn.
 
-Đóng góp chính của tôi không phải là đưa ra final idea, mà là giúp nhóm gom cluster và làm câu problem chặt hơn. Tôi cố kéo nhóm đi theo mạch problem -> workflow -> bottleneck -> metric -> boundary, vì nếu nhảy thẳng sang app/agent thì bài sẽ bị solution-first. AI có giúp tôi kiểm tra xem bảng có thiếu field nào không, nhất là phần AI sai ở đâu và ai review. Nhưng AI cũng hay viết quá mượt và hơi chung, nên tôi phải sửa lại bằng chi tiết thật như VinUni, Ocean Park, indoor map, thời gian 15-20 phút và scope phòng học trước. Điều khó nhất với tôi là metric và boundary: metric phải đo được, còn boundary phải nói rõ AI không tự bịa đường/quán và không thay người kiểm tra nguồn. Nếu làm lại, tôi sẽ challenge nhóm mạnh hơn ở việc thu evidence sớm hơn, ví dụ hỏi nhanh 5-10 bạn hoặc ghi lại 2-3 lần tìm phòng thật trước khi viết final decision.
+Phần tôi làm nhiều nhất là gom các idea lại, rồi brainstorm với nhóm để refine campus navigation thành hai nhánh: tìm phòng trong tòa và tìm tiện nghi/quán ăn quanh Ocean Park. Tôi thấy nếu nói ngay về app hay Agent thì rất dễ bị solution-first. AI giúp tôi nhìn ra phần nào trong bảng còn thiếu, nhất là metric, fallback và ai sẽ kiểm tra khi AI trả lời sai. Nhưng câu AI viết thường nghe mượt mà mà lại khá chung, nên tôi chỉ giữ khung và thay bằng chi tiết của nhóm như VinUni, Ocean Park, indoor map, giờ mở cửa và việc phải hỏi người khác để tìm đường. Điều khó nhất với tôi là metric và boundary, vì metric phải đo được chứ không chỉ là cảm giác, còn boundary phải nói rõ AI không được tự bịa đường, giờ mở cửa hay tình trạng quán. Nếu làm lại, tôi sẽ hỏi nhanh 5-10 bạn và ghi lại vài lần tìm phòng hoặc tìm tiện nghi thật ngay từ đầu, thay vì chờ đến lúc gần chốt mới đi tìm evidence.
 ```
 
 ---
@@ -77,9 +77,9 @@ Khi nghe top 3 problems của các bạn khác, tôi học được là một pr
 - [x] [12đ] Cá nhân có 5+ problems + top 3 Problem Cards
 - [x] [12đ] Tôi đã pitch rõ + challenge nhóm đúng trọng tâm (ghi ở bảng mục 1)
 - [x] Nhóm có nhật ký hội tụ từ candidates về 1 bài
-- [ ] [15đ] Nhóm có workflow trước/sau
-- [ ] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ
-- [ ] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent
-- [ ] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ
+- [x] [15đ] Nhóm có workflow trước/sau
+- [x] [20đ] Nhóm có PS v0/v1 với metric + boundary rõ
+- [x] [15đ] Nhóm có so sánh No AI / Rule / Workflow / Agent
+- [x] [10đ] Nhóm có Go / Not Yet / No-Go + lý do rõ
 - [x] [10đ] Reflection này có vai trò thật + AI giúp/sai ở đâu + điều học được + nếu làm lại đổi gì
 - [x] [6đ] Tôi tự giải thích được mạch problem → workflow → metric → boundary → độ phù hợp AI
