@@ -16,7 +16,7 @@
 **Candidate problem nhóm chọn (1 câu):**
 
 ```text
-Sinh viên và khách đến VinUni gặp khó khăn khi tìm phòng học/hội trường trong tòa nhà phức tạp và tìm quán ăn phù hợp quanh Ocean Park vì thông tin indoor map và tiện nghi xung quanh bị phân tán.
+Sinh viên và khách, giảng viên đến VinUni gặp khó khăn khi tìm phòng học/hội trường trong tòa nhà phức tạp và tìm quán ăn khu vực quanh VinUni
 ```
 ---
 
@@ -42,6 +42,8 @@ Sinh viên và khách đến VinUni gặp khó khăn khi tìm phòng học/hội
 | 14  | Đạt          | Fresher DA mất 60-90 phút debug SQL dài kế thừa khi dashboard lệch số.                                                  | Fresher DA/senior DA                                                                            | Đọc hiểu nhiều CTE/JOIN không có comment, phải bóc tách từng bước.                                            | AI fit cao, metric tốt, nhưng cần query thật và data context để validate.                             |
 | 15  | Đạt          | Chuyển business request thành SQL draft mất 30-45 phút và dễ sai logic.                                                 | Fresher DA/business stakeholder                                                                 | Dịch yêu cầu kinh doanh sang bảng, join, filter và SQL logic.                                                 | Có thể mạnh nếu nhóm chọn DA domain, rủi ro hallucinate schema.                                       |
 | 16  | Chương       | Sinh viên và khách đến VinUni khó tìm phòng học/hội trường và quán ăn quanh Ocean Park vì thông tin vị trí bị phân tán. | Tân sinh viên, sinh viên trường khác, giảng viên thỉnh giảng, khách tham quan, sinh viên VinUni | Google Maps không đủ indoor map từng tầng; phải đi lòng vòng/hỏi bảo vệ hoặc tự lướt nhiều nguồn để tìm quán. | Nhóm chọn làm final vì actor rộng, pain dễ hiểu, có bối cảnh VinUni thật và có metric 15-20 phút/lần. |
+| 17  | Chương       | Người mua hàng online tốn nhiều thời gian so sánh giá và đọc review để lọc seeding, lỗi sản phẩm và rủi ro hàng kém chất lượng. | Người mua sắm trên Shopee, Lazada, TikTok Shop                                                 | Phải mở 3-5 gian hàng, đọc 20-30 review 1-2 sao và tự phân biệt lỗi thật với seeding hoặc lỗi vận chuyển.    | Workflow và metric khá rõ, AI fit tốt, nhưng domain shopping riêng hơn và có rủi ro crawl dữ liệu sàn. |
+| 18  | Chương       | Người lớn tuổi gặp lỗi smartphone nhưng khó diễn đạt thuật ngữ kỹ thuật, còn con cháu hỗ trợ từ xa không nhìn thấy màn hình. | Người cao tuổi dùng smartphone và con cháu hỗ trợ kỹ thuật từ xa                              | Người lớn tuổi phải đi hỏi người xung quanh hoặc gọi con cháu nhưng mô tả lỗi không rõ.                      | Có giá trị nhân văn, nhưng card còn metric yếu và triển khai trên điện thoại khó hơn trong lab.        |
 
 ### 3.2. Gom trùng / cluster
 
@@ -53,6 +55,8 @@ Sinh viên và khách đến VinUni gặp khó khăn khi tìm phòng học/hội
 | D - Data analyst request / SQL workflow | Đạt #1, Đạt #2, Đạt #3 | DA mất thời gian làm rõ request, đọc/debug SQL cũ và chuyển business logic thành SQL. | Metric khá rõ, AI fit tốt, nhưng domain hơi riêng so với cả nhóm nếu không ai khác làm DA. |
 | E - Weekly reporting | Quang #1 | Từ nhiều nguồn raw data, người làm phải viết lại thành progress narrative. | Metric rõ, nhưng candidate này đứng một mình, ít trùng với các bài khác. |
 | F - Campus navigation / student daily utility | Chương #1 | Người mới hoặc khách ở VinUni khó tìm đúng phòng/tầng/lối đi, rồi tiếp tục mất thời gian tìm tiện nghi/quán ăn quanh trường. | Bối cảnh rất local, dễ demo bằng VinUni/Ocean Park, actor rộng hơn một nhóm học. |
+| G - Online shopping review / decision support | Chương #2 | Người mua hàng online phải so sánh giá, đọc nhiều review và tự lọc review ảo trước khi mua. | Có metric thời gian rõ, nhưng phụ thuộc dữ liệu từ sàn TMĐT và không liên quan trực tiếp đến VinUni/lab. |
+| H - Elderly mobile support | Chương #3 | Người lớn tuổi gặp lỗi điện thoại nhưng khó mô tả vấn đề; người hỗ trợ từ xa không nhìn thấy màn hình. | Pain dễ đồng cảm, nhưng metric và workflow trong file cá nhân còn mỏng nên khó chọn làm final ngay. |
 
 ### 3.3. Shortlist (giữ 2-3 bài trả lời được 7 câu hỏi worksheet)
 
@@ -95,7 +99,7 @@ Nhóm chọn bài của Chương vì problem này rất dễ hiểu với ngư�
 ```text
 Learning support của Duy là lựa chọn thứ 2 vì rất sát trải nghiệm khóa AI hiện tại và có pain thật về quá tải kiến thức. Tuy nhiên metric "đã hiểu 40-60%" cần được đo cẩn thận hơn bằng quiz/checklist, nếu không dễ bị xem là cảm tính.
 
-Team task coordination có nhiều người gặp và score cao, nhưng có rủi ro là GitHub Issues/template/process fix đã giải quyết được phần lớn mà chưa cần AI. Developer debug/code navigation và DA request/SQL đều có AI fit tốt, nhưng cần dữ liệu thật như repo/log/SQL/schema để defend chắc hơn trong thời gian lab. Weekly reporting có metric rõ nhưng ít trùng với các thành viên khác.
+Team task coordination có nhiều người gặp và score cao, nhưng có rủi ro là GitHub Issues/template/process fix đã giải quyết được phần lớn mà chưa cần AI. Developer debug/code navigation và DA request/SQL đều có AI fit tốt, nhưng cần dữ liệu thật như repo/log/SQL/schema để defend chắc hơn trong thời gian lab. Weekly reporting có metric rõ nhưng ít trùng với các thành viên khác. Hai idea còn lại của Chương là shopping review và hỗ trợ người lớn tuổi dùng smartphone đều có pain thật, nhưng một bài lệch khỏi bối cảnh nhóm/campus, một bài còn thiếu metric cụ thể để defend nhanh.
 ```
 
 **Disagreement (nếu có — ai lo gì, chốt ra sao):**
@@ -112,33 +116,35 @@ Nhóm chốt tạm final theo hướng Campus navigation của Chương. Điểm
 
 | Nguồn | Số người / mẫu | Tín hiệu xác nhận (kèm quote nguyên văn) | Tín hiệu phản bác | Nhóm sửa problem thế nào |
 |---|---:|---|---|---|
-| Interview | | | | |
-| Survey / poll | | | | |
-| Log / ticket / review (nếu có) | | | | |
+| Interview | Chưa thực hiện | Chưa có quote người dùng nên **không kết luận** pain đã được xác nhận. | Chưa có dữ liệu phản bác. | Thu hẹp bản thử nghiệm về việc tìm **phòng học/hội trường trong VinUni**; chỉ giữ phần quán ăn là mở rộng nếu người được hỏi nêu đây là nhu cầu lặp lại. |
+| Micro-survey | Chưa thực hiện (mục tiêu: 5-10 người) | Cần thu câu trả lời nguyên văn cho: "Lần gần nhất bạn tìm phòng ở VinUni là khi nào? Bước nào khó nhất? Mất bao lâu? Bạn đã làm gì?" | Cần ghi cả trường hợp người trả lời tìm được ngay bằng biển chỉ dẫn, Google Maps hoặc hỏi lễ tân. | Chỉ giữ giả thuyết nếu đa số mẫu nêu khó khăn ở việc xác định đúng tòa/tầng/phòng hoặc lộ trình; nếu không, chuyển trọng tâm sang chuẩn hóa biển chỉ dẫn/directory thay vì xây sản phẩm AI. |
+| Log / ticket / review | Chưa có | Không có log hỗ trợ, ticket hay số liệu thời gian đã được cung cấp để dùng làm bằng chứng. | - | Không dùng các con số "15-20 phút" hoặc "20-30 phút" ở các phần trước như số liệu đã kiểm chứng; xem đây là giả định cần đo trong pilot. |
 
 **Insight sau validation (1-2 câu — pain thật nằm ở đâu):**
 
 ```text
-
+Trạng thái hiện tại: Not Yet - nhóm mới có giả thuyết hợp lý từ quan sát ban đầu, chưa có dữ liệu người dùng đủ để xác nhận. Nếu giả thuyết đúng, pain cốt lõi không phải là "thiếu một app bản đồ" mà là thiếu một nguồn thông tin đáng tin cậy nối mã phòng với tòa nhà, tầng và lộ trình; thông tin quán ăn là nhu cầu phụ cần kiểm chứng riêng.
 ```
 
-Bằng chứng đính kèm (nếu có): `02-group-problem-statement-survey.png`, `...-interview-notes.md`
+**Kế hoạch hoàn tất validation trước khi nộp:** phỏng vấn 3 người thuộc ít nhất 2 nhóm (tân sinh viên/khách/sinh viên hiện tại); ghi nguyên văn 1 câu mỗi người, thời điểm gần nhất gặp vấn đề, cách xử lý hiện tại và thời gian ước lượng. Đính kèm ảnh poll hoặc ghi chú đã ẩn danh tại `02-group-problem-statement-interview-notes.md`. Không thay thế dữ liệu này bằng câu trả lời do AI tạo.
 
 ### 4.2. Research giải pháp đã có (ít nhất 2-3 tools/patterns + 1-2 link kiểm được)
 
 | Nguồn / tool / case | Link | Họ giải quyết bước nào? | Điểm mạnh | Khoảng trống / rủi ro | Bài học cho nhóm |
 |---|---|---|---|---|---|
-| | | | | | |
-| | | | | | |
-| | | | | | |
+| Google Maps - Indoor Maps | [Google Maps Help: indoor maps](https://support.google.com/maps/answer/2803784?hl=en-GB) | Hiển thị sơ đồ tầng và cho chọn level ở các địa điểm có dữ liệu indoor map; hỗ trợ tìm POI trong tòa nhà. | Người dùng đã quen thuộc; giảm nhu cầu tạo một bản đồ nền mới. | Floor plan chỉ có ở địa điểm được hỗ trợ; nhóm chưa xác minh VinUni có dữ liệu phòng/tầng đầy đủ. Google Maps cũng không tự bảo đảm mã phòng, lối đi nội bộ hay trạng thái thay đổi tại campus. | Kiểm tra Google Maps trước khi build. Nếu dữ liệu VinUni thiếu, dùng Google Maps cho chỉ dẫn đến campus/tòa nhà, còn dữ liệu phòng và lộ trình nội bộ phải do nguồn được VinUni xác thực cung cấp. |
+| ArcGIS Indoors Viewer | [ArcGIS Indoors: Viewer](https://doc.arcgis.com/en/indoors/latest/viewer/introduction-to-indoor-viewer.htm) | Tìm vị trí/tài nguyên trong tòa nhà hoặc nhiều tòa nhà; có thể định tuyến giữa các điểm và hỗ trợ chế độ kiosk cho khách. | Cho thấy mô hình campus-level cần room directory, map theo tầng và wayfinding - không chỉ search địa điểm. | Cần dữ liệu indoor được chuẩn hóa, vận hành/cập nhật và giấy phép ArcGIS; quá nặng cho pilot sinh viên. | Mượn pattern "tìm phòng -> xem tầng -> xem đường đi", nhưng pilot nên là web directory/map tĩnh có owner dữ liệu, không triển khai nền tảng enterprise. |
+| OpenStreetMap - Simple Indoor Tagging | [Simple Indoor Tagging](https://wiki.openstreetmap.org/wiki/Simple_Indoor_Tagging) | Mô hình hóa tầng, phòng, hành lang và mã phòng (`level`, `ref`, `indoor=room/corridor`) để hiển thị/định tuyến indoor. | Làm rõ dữ liệu tối thiểu cần có: mã phòng, tầng, hành lang/lối nối và POI; có thể bắt đầu từ dữ liệu thô rồi tăng dần độ chi tiết. | Đây là quy ước dữ liệu cộng đồng, không tự tạo route hay bảo đảm dữ liệu chính xác; dữ liệu nội bộ có thể không phù hợp để công khai. | Thiết kế schema tối thiểu do VinUni quản trị: `building`, `floor`, `room_code`, `room_name`, `category`, `last_verified`; chỉ công bố thông tin được phép và có ngày kiểm tra. |
 
 **Research takeaway (2-3 câu — nên build gì / không build gì):**
 
 ```text
+Nên bắt đầu bằng MVP không-AI: một directory phòng đã được xác thực, tìm theo mã phòng, hiển thị tòa/tầng và sơ đồ/lộ trình đơn giản; Google Maps chỉ dùng cho chặng ngoài trời hoặc khi indoor data của VinUni đã được kiểm tra. Không nên hứa hẹn định vị vị trí thời gian thực, tự tạo indoor route bằng AI, hay dữ liệu quán ăn/giờ mở cửa nếu chưa có owner cập nhật.
 
+AI, nếu được dùng ở phase sau, chỉ nên hỗ trợ hiểu câu hỏi tự do (ví dụ: "A303 ở đâu?") rồi trả về bản ghi đã xác thực; AI không được suy đoán vị trí phòng hay giờ mở cửa. Điều kiện Go là có nguồn dữ liệu được VinUni xác nhận, owner cập nhật và kết quả quick validation cho thấy directory hiện tại chưa đủ.
 ```
 
-> Lưu ý: không dùng số liệu AI đưa nếu không verify được link chính thức. Ghi rõ giả định chưa chắc.
+> Nguồn đã kiểm: Google Maps Help, ArcGIS Docs và OpenStreetMap Wiki (truy cập 12/09/2026). Research cho thấy các pattern khả thi, **không** là bằng chứng rằng người dùng VinUni đang gặp pain này. Các giả định chưa kiểm chứng: mức độ đầy đủ của indoor map VinUni, thời gian tìm phòng, nhu cầu quán ăn, và quyền sử dụng/công bố sơ đồ campus.
 
 ---
 
